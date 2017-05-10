@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>表单页面</title>
+	</head>
+	<!--
+		设计一个表单页面,用来收集用户的数据
+	-->
+	<body>
+		<table border="1px" width="100%">
+			<!--8行1列-->
+			<!--
+            	1.logo
+            	嵌套一行三列表格
+            -->
+            <tr>
+            	<td>
+            		<table width="100%">
+            			<tr>
+            				<td>
+            					<img src="img/logo2.png" height="50px"/>	
+            				</td>
+            				<td>
+            					<img src="img/header.jpg" height="50px"/>
+            				</td>
+            				<td>
+            					<a href="#">登录</a>
+            					<a href="#">注册</a>
+            					<a href="#">购物车</a>&nbsp;&nbsp;
+            				</td>
+            			</tr>
+            		</table>
+            	</td>
+            </tr>
+			<!--
+            	2.导航栏
+            -->
+            <tr>
+            	<td bgcolor="black" >
+            		<a href="#"><font color="white" size="4">首页</font></a>
+            		<a href="#"><font color="white" size="4">首页</font></a>
+            		<a href="#"><font color="white" size="4">首页</font></a>
+            		<a href="#"><font color="white" size="4">首页</font></a>
+            	</td>
+            </tr>
+            <!--
+            	表单
+            -->
+			<tr>
+				<td background="img/regist_bg.jpg">
+					<form action="#" method="get">
+						<table border="1px" width="40%" align="center" bgcolor="white" height="400px">
+							<tr>
+								<td>
+									用户名：
+								</td>
+								<td>
+									<input type="text" name="username"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									密码：
+								</td>
+								<td>
+									<input type="password" name="password"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									确认密码：
+								</td>
+								<td>
+									<input type="password"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									邮箱：
+								</td>
+								<td>
+									<input type="email" name="email"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									日期：
+								</td>
+								<td>
+									<input type="date" name="date"/>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</td>
+			</tr>
+			<!--
+            	4.其他服务
+            -->
+            <tr>
+            	<td>
+            		<img src="img/footer.jpg" width="100%" />
+            	</td>
+            </tr>
+			<!--
+            	5.版权信息
+            -->
+            <tr>
+            	<td align="center">
+            		<a href="#">关于我们</a>
+            		<a href="#">关于我们</a>
+            		<a href="#">关于我们</a>
+            		<a href="#">关于我们</a>
+            		<a href="#">关于我们</a>
+            		<p>
+            			Copyright &copy; 2005-2016 传智商城 版权所有
+            		</p>
+            	</td>
+            </tr>
+		</table>
+	</body>
+</html>
